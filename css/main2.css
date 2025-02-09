@@ -2,12 +2,15 @@
 {
     color: white;
     font-family: arial;
-    padding-bottom: 10px;
+    padding-bottom: 1%;
+    /* background-color: tomato; */
+    z-index: 12;
+    font-size: clamp(10px, 2vw, 30px);
 }
 .text
 {
-    height: 70px;
-    margin-top: 20px;
+    /* background-color: lightblue; */
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     align-items: center;
