@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(26, 26, 46);
+}
+.header
+{
+    display: flex;
+    height: 80px;
+}
+.empty1
+{
+    width: 7svw;
+    /* background-color: lightskyblue; */
+}
+.logo
+{
+    width: 20svw;
+    display: flex;
+    align-items: center;
+}
+.center
+{
+    flex: 1;
+    min-width: 50px;
+}
+.empty2
+{
+    width: 7svw;
+    /* background-color: lightskyblue; */
+}
+.logo-pic
+{
+    width: 2svw;
+    min-width: 25px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 5px;
+}
+.logo-name
+{
+    margin-left: 1px;
+}
+.logo-name1
+{
+    font-family: "ADLaM Display", serif;
+    color: white;
+    font-size: min(4vw, 40px); 
+    margin-top: 0px;
+    min-width: 280px;
+}
+.hero
+{
+    font-family: arial;
+    font-size: min(3vw, 10px);
+    color: white;
+    font-weight:500;
+    margin-top: 2px;
+    font-weight: bold;
+}
+.sign-bt
+{
+    display: flex;
+    align-items: center;
+    /* background-color: lightpink; */
+    /* max-width: 290px; */
+    min-width: 260px;
+}
+.log-in-bt1
+{
+    background-color:rgb(26, 26, 46); 
+    color: white;
+    padding:10px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: min(3vw, 20px);
+    margin-left: 10px;
+}
+.log-in-bt2
+{
+    background-color:rgba(102,104,117,255);
+    color: white;
+    padding:10px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: min(3vw, 20px);
+    margin-left: 10px;
+}
+.log-in-bt2:hover
+{
+    background-color: rgb(26, 26, 46);
+    border: 2px solid whitesmoke;
+    transition: 1s;
+} 
+.log-in-bt1:hover
+{
+    background-color: rgb(26, 26, 46);
+    border: 2px solid whitesmoke;
+    transition: 1s;
+}

@@ -1,0 +1,100 @@
+.main3
+{
+    height: 330px;
+    background-color: lightblue;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.pong-pic
+{
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.main3::before
+{
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 100%;
+    color: white;
+    top: -15px;
+    left: 0px;
+    background-image: linear-gradient(to bottom, rgb(26, 26, 46),rgb(26, 26, 46));
+    filter: blur(7px);
+}
+.main3::after
+{
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 100%;
+    color: white;
+    left: 0px;
+    bottom: -15px;
+    background-image: linear-gradient(to bottom, rgb(26, 26, 46),rgb(26, 26, 46));;
+    filter: blur(7px);
+}
+.info1
+{
+    height: 200px;
+    width: 80%;
+
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+.tag1
+{
+    background-color: rgba(41,38,38,255);
+    width: 175px;
+    border-radius: 20px;
+    position: relative;
+}
+.pic-tag
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.add-acc
+{
+    width: 30px;
+    height: 40px;
+}
+.tag-text
+{
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.tag-text1
+{
+    margin-top: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 13px;
+    color: gray;
+}
+
+.tag1:hover
+{
+    background-color: rgb(78, 78, 128);
+    transition: 1s;
+}
+.tag-text1:hover
+{
+    color: white;
+    transition: 1s;
+}
