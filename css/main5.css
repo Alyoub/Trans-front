@@ -1,63 +1,63 @@
 .main5
 {
-    height: 140px;
+    margin-top: 10%;
     display: flex;
 }
-.part_1
+.info5
 {
-    width: 200px;
-
-    margin-top: 20px;
+    display: flex;
+    flex: 1;
 }
-.part_2
+.pt1
 {
     flex: 1;
     display: flex;
+    justify-content: space-between;
 }
-.part_3
+.pt2
 {
-    width: 200px;
-    margin-top: 20px;
+    width: 20svw;
+    /* background-color: lightpink; */
+    display: flex;
+    justify-content: center;
 }
-.sign-bt3
+.logo-main5
 {
-    padding: 10px 30px;
-    font-size: 20px;
+    width: 20svw;
+    display: flex;
+    /* background-color: lightpink; */
+}
+.wq1
+{
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.wq2
+{
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.wq3
+{
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.xp1
+{
+    text-align: center;
+    font-family: arial;
     font-weight: bold;
     color: white;
-    background-color: rgb(78, 78, 128);
-    border: 1px solid white;
-    border-radius: 20px;
-    margin-left: 65px;
-
+    font-size: clamp(8px, 1vw, 25px);
+    font-size: clamp(5px, 1vw, 30px);
+    padding-bottom: 5%;
 }
-.sign-bt3:hover
+.xr1
 {
-    background-color: rgba(102,104,117,255);
-    color: black;
-    transition: 0.70s;
-    border: 1px solid white;
-}
-.first1
-{
-    margin-top: 30px;
-    width: 132px;
-    height: 87%;
-}
-.id
-{
-    padding-bottom: 10px;
-    color: white;
-    font-family: arial;
-    margin-left: 30px;
-    font-weight: bold;
-    font-size: 17px;
-}
-.id2
-{
-    font-size: 13px;
-    margin-left: 30px;
-    font-family: arial;
-    padding-bottom: 5px;
+    text-align: center;
     color: gray;
+    font-family: arial;
+    font-size: 12px;
+    padding-top: 5px;
+    font-size: clamp(5px, 1vw, 30px);
 }

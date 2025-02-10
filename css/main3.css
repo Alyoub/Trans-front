@@ -1,10 +1,9 @@
 .main3
 {
-    background-color: lightblue;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 2%;
 
 }
 .pong-pic
@@ -14,48 +13,42 @@
     object-position: top;
     flex-shrink: 0;
 }
-/* .main3::before
+.main3::before
 {
     position: absolute;
     content: '';
-    height: 30px;
+    height: 10%;
     width: 100%;
     color: white;
-    top: -15px;
-    left: 0px;
-    background-image: linear-gradient(to bottom, rgb(26, 26, 46),rgb(26, 26, 46));
-    filter: blur(7px);
-} */
-/* .main3::after
+    top: -6%;
+    filter: blur(4px);
+    background-color: rgb(26, 26, 46);
+}
+.main3::after
 {
     position: absolute;
     content: '';
-    height: 30px;
+    height: 10%;
     width: 100%;
     color: white;
-    left: 0px;
-    bottom: -15px;
-    background-image: linear-gradient(to bottom, rgb(26, 26, 46),rgb(26, 26, 46));;
-    filter: blur(7px);
-} */
+    bottom: -6%;
+    background-color: rgb(26, 26, 46);
+    filter: blur(4px);
+}
 .info1
 {
-    height: 200px;
-    width: 80%;
-
+    height: 80%;
+    width: 100%;
     position: absolute;
-    top: 70px;
-    left: 0px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin-left: 90px;
+
 }
 .tag1
 {
-    background-color: rgba(41,38,38,255);
-    width: 175px;
-    border-radius: 20px;
+    background-color: rgba(41,38,38,0.6);
+    width: 16svw;
+    border-radius: clamp(10px, 2vw, 20px);
     position: relative;
 }
 .pic-tag
@@ -63,19 +56,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 7%;
 }
 .add-acc
 {
-    width: 30px;
-    height: 40px;
+    width: 3svw;
 }
 .tag-text
 {
     text-align: center;
     font-family: arial;
     font-weight: bold;
-    font-size: 15px;
+    font-size: clamp(8px, 1vw, 25px);
     color: white;
 }
 .tag-text1
@@ -83,17 +75,26 @@
     margin-top: 10px;
     text-align: center;
     font-family: arial;
-    font-size: 13px;
-    color: gray;
+    font-size: clamp(5px, 1vw, 30px);
+    color: white;
+    margin-left: 11%;
+    position: absolute;
 }
 
 .tag1:hover
 {
-    background-color: rgb(78, 78, 128);
+    background-color: rgba(78, 78, 128, 0.9);
     transition: 1s;
 }
 .tag-text1:hover
 {
     color: white;
     transition: 1s;
+}
+
+.empty3,
+.empty4
+{
+    width: 15svw;
+
 }

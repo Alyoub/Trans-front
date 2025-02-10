@@ -1,25 +1,25 @@
 .main4
 {
-    margin-top: 30px;
-    height: 200px;
-    /* background-color: lightpink; */
+    margin-top: 1.5%;
+    display: flex;
 }
 .part1
 {
 
-    /* background-color: lightblue; */
     font-family: "Lexend Mega", serif;
-    font-size: 35px;
-    margin-left: 90px;
+    font-size: clamp(20px, 3vw, 70px);
     color: white;
-    width: 520px;
+    display: block;
+    width: 100%;
+
 }
 .part2
 {
-    margin-left: 90px;
-    width: 450px;
     font-family: arial;
     color: grey;
+    width: 60%;
+    font-size: clamp(15px, 1vw, 30px);
+    padding-top: 1%;
 }
 
 .part2:hover
