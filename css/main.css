@@ -2,7 +2,7 @@
 {
     height: 40svw;
     display: flex;
-    margin-top: 10%;
+    margin-top: 12%;
     position: relative;
     /* background-color: tomato; */
 }
@@ -51,8 +51,10 @@
 }
 .right-pic
 {
-  width: 30svw;
+  width: 35svw;
   object-fit:fill;
+    margin-top: -15%;
+    margin-right: -5%;
 
 }
 .not
@@ -60,7 +62,7 @@
     position: absolute;
     width: 30svw;
     height: 6%;
-    bottom: 11%;
+    bottom: 12%;
     background-image: linear-gradient(to Right, rgb(26, 26, 46) -144px,rgb(26, 26, 46)119px);
     filter: blur(4px);
 }
