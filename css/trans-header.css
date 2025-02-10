@@ -6,12 +6,21 @@
 body
 {
     background-color: rgb(26, 26, 46);
-    padding-bottom: 100px;
+    height: auto;
 }
 .header
 {
     display: flex;
+    background-color: rgb(26, 26, 46);
     padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid  rgba(58, 79, 124, 0.6);
+    /* background-color: tomato; */
 }
 
 .logo
@@ -19,6 +28,7 @@ body
     width: 20svw;
     display: flex;
     align-items: center;
+    /* background-color: black; */
 }
 .center
 {
@@ -33,11 +43,8 @@ body
 }
 .logo-pic
 {
-    width: 2svw;
-    min-width: 25px;
-    height: auto;
-    object-fit: cover;
-    margin-left: 5px;
+    width: 3svw;
+    /* background-color: red; */
 }
 .logo-name
 {

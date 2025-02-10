@@ -77,13 +77,14 @@
     font-family: arial;
     font-size: clamp(5px, 1vw, 30px);
     color: white;
-    margin-left: 11%;
     position: absolute;
+    padding: clamp(1px, 1vw, 10px) clamp(0px, 1vw, 26px);
 }
 
 .tag1:hover
 {
-    background-color: rgba(78, 78, 128, 0.9);
+    /* background-color: rgba(78, 78, 128, 0.9); */
+    background-color: rgba(58, 79, 124, 0.9);
     transition: 1s;
 }
 .tag-text1:hover
