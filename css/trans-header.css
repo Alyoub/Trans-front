@@ -101,10 +101,12 @@ body
     background-color: rgb(26, 26, 46);
     border: 2px solid whitesmoke;
     transition: 1s;
+    cursor: pointer;
 } 
 .log-in-bt1:hover
 {
     background-color: rgb(26, 26, 46);
     border: 2px solid whitesmoke;
     transition: 1s;
+    cursor: pointer;
 }

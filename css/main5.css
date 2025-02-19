@@ -2,6 +2,7 @@
 {
     margin-top: 10%;
     display: flex;
+    
 }
 .info5
 {
@@ -30,18 +31,8 @@
 .wq1
 {
     flex: 1;
-    /* border: 1px solid red; */
 }
-.wq2
-{
-    flex: 1;
-    /* border: 1px solid red; */
-}
-.wq3
-{
-    flex: 1;
-    /* border: 1px solid red; */
-}
+
 .xp1
 {
     text-align: center;

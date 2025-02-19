@@ -11,7 +11,6 @@
     width: 100%;
     object-fit: cover;
     object-position: top;
-    flex-shrink: 0;
 }
 .main3::before
 {
@@ -38,10 +37,12 @@
 .info1
 {
     height: 80%;
-    width: 100%;
+    width: 70%;
     position: absolute;
     display: flex;
     justify-content: space-between;
+    background-color: red;
+    margin-left: 15%;
 
 }
 .tag1
@@ -86,6 +87,7 @@
     /* background-color: rgba(78, 78, 128, 0.9); */
     background-color: rgba(58, 79, 124, 0.9);
     transition: 1s;
+    cursor: pointer;
 }
 .tag-text1:hover
 {
@@ -93,9 +95,10 @@
     transition: 1s;
 }
 
-.empty3,
+/* .empty3,
 .empty4
 {
     width: 15svw;
+    background-color: lightblue;
 
-}
+} */
