@@ -1,3 +1,112 @@
+const newHtmlUp = `  <div class="bts">
+<button class="SIGN_INBT">
+  SIGN IN
+</button>
+<button class="SIGN_UPBT">
+  SIGN UP
+</button>
+</div>
+<div class="email_tag">
+<div class="names">
+  <p class="email_text">
+      First Name
+    </p>
+    <p class="email_text1">
+      Last Name
+    </p>
+</div>
+<div class="info">
+  <input class="email_input"  placeholder="Name">
+  <input class="email_input" placeholder="Last Name">
+</div>
+</div>
+<div class="email_tag">
+  <p class="email_text">
+    Email
+  </p>
+  <input class="email_input" placeholder="Enter your email">
+</div>
+<div class="password_tag">
+<p class="passwordl_text">
+  Password
+</p>
+<div class="password_container">
+    <input class="password_input" type="password" placeholder="Enter your password">
+    <button class="show_ps">
+      <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
+    </button>
+</div>
+</div>
+<div class="password_tag">
+<p class="passwordl_text">
+Confirm Password
+</p>
+<div class="password_container">
+  <input class="password_input" type="password" placeholder="Confirm password">
+  <button class="show_ps">
+    <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
+  </button>
+</div>
+</div>
+<button class="sign_bt">
+SIGN IN
+</button>
+</div>`;
+
+const newHtmlIn = `
+<div class="bts">
+<button class="SIGN_INBT">
+  SIGN IN
+</button>
+<button class="SIGN_UPBT">
+  SIGN UP
+</button>
+</div>
+<div class="email_tag">
+<p class="email_text">
+  Email
+</p>
+<input class="email_input" placeholder="Enter your email">
+</div>
+<div class="password_tag">
+<p class="passwordl_text">
+  Password
+</p>
+<div class="password_container">
+    <input class="password_input" type="password" placeholder="Enter your password">
+    <button class="show_ps">
+      <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
+    </button>
+</div>
+</div>
+<div class="check">
+<input class="check_box" type="checkbox">
+<p class="remember_me">
+Remember me
+</p>
+<p class="forgot_ps">
+Forgot your password?
+</p>
+</div>
+<button class="sign_bt">
+SIGN IN
+</button>
+<p class="back">
+OR USE
+</p>
+<button class="google_bt">
+<img class="google_logo" src="logo/google-ar21~bgwhite.svg">
+</button>
+<div class="creat_acc">
+<p class="new">
+New to <span class="name_page">PingPong.io</span>
+</p>
+<p class="creat">
+Creat an account 
+</p>
+</div>
+`;
+
 function visibility()
 {
     const on = '<img class="visibility_off" src="logo/visibility_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">'
@@ -17,3 +126,31 @@ function visibility()
         input.type = "password";
     }
 }
+
+document.querySelector('.show_ps').addEventListener('click', () => {
+    visibility();
+});
+
+
+document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(button => {
+    button.addEventListener('click', () => {
+        document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(btn => {
+            btn.classList.remove('line');
+        });
+        button.classList.add('line');
+    });
+});
+
+
+document.querySelector('.SIGN_UPBT').addEventListener('click', () =>{
+
+    document.querySelector('.segv').innerHTML = newHtmlUp;
+
+});
+
+document.querySelector('.SIGN_INBT').addEventListener('click', () =>{
+
+    document.querySelector('.segv').innerHTML = newHtmlIn;
+
+});
+
