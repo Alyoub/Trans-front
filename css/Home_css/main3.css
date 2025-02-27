@@ -41,7 +41,6 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    background-color: red;
     margin-left: 15%;
 
 }
@@ -57,7 +56,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 .add-acc
 {
@@ -68,16 +67,18 @@
     text-align: center;
     font-family: arial;
     font-weight: bold;
-    font-size: clamp(8px, 1vw, 25px);
+    font-size: clamp(8px, 1vw, 30px);
     color: white;
+    margin-top: 6%;
 }
 .tag-text1
 {
-    margin-top: 10px;
+    margin-top: 3%;
     text-align: center;
     font-family: arial;
-    font-size: clamp(5px, 1vw, 30px);
+    font-size: clamp(5px, 1vw, 40px);
     color: white;
+    /* background-color: red; */
     position: absolute;
     padding: clamp(1px, 1vw, 10px) clamp(0px, 1vw, 26px);
 }

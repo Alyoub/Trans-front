@@ -1,11 +1,4 @@
-const newHtmlUp = `  <div class="bts">
-<button class="SIGN_INBT">
-  SIGN IN
-</button>
-<button class="SIGN_UPBT">
-  SIGN UP
-</button>
-</div>
+const newHtmlUp = `
 <div class="email_tag">
 <div class="names">
   <p class="email_text">
@@ -16,22 +9,28 @@ const newHtmlUp = `  <div class="bts">
     </p>
 </div>
 <div class="info">
-  <input class="email_input"  placeholder="Name">
-  <input class="email_input" placeholder="Last Name">
+  <input class="email_input">
+  <input class="email_input">
 </div>
+</div>
+<div class="email_tag">
+  <p class="email_text">
+    Username
+  </p>
+  <input class="email_input">
 </div>
 <div class="email_tag">
   <p class="email_text">
     Email
   </p>
-  <input class="email_input" placeholder="Enter your email">
+  <input class="email_input">
 </div>
 <div class="password_tag">
 <p class="passwordl_text">
   Password
 </p>
 <div class="password_container">
-    <input class="password_input" type="password" placeholder="Enter your password">
+    <input class="password_input" type="password"">
     <button class="show_ps">
       <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
     </button>
@@ -42,7 +41,7 @@ const newHtmlUp = `  <div class="bts">
 Confirm Password
 </p>
 <div class="password_container">
-  <input class="password_input" type="password" placeholder="Confirm password">
+  <input class="password_input" type="password">
   <button class="show_ps">
     <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
   </button>
@@ -54,26 +53,18 @@ SIGN IN
 </div>`;
 
 const newHtmlIn = `
-<div class="bts">
-<button class="SIGN_INBT">
-  SIGN IN
-</button>
-<button class="SIGN_UPBT">
-  SIGN UP
-</button>
-</div>
 <div class="email_tag">
 <p class="email_text">
   Email
 </p>
-<input class="email_input" placeholder="Enter your email">
+<input class="email_input">
 </div>
 <div class="password_tag">
 <p class="passwordl_text">
   Password
 </p>
 <div class="password_container">
-    <input class="password_input" type="password" placeholder="Enter your password">
+    <input class="password_input" type="password">
     <button class="show_ps">
       <img class="visibility_off" src="logo/visibility_off_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
     </button>
@@ -142,15 +133,14 @@ document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(button => {
 });
 
 
+const leet = document.querySelector('.segv2');
+leet.innerHTML = newHtmlIn; 
+
 document.querySelector('.SIGN_UPBT').addEventListener('click', () =>{
-
-    document.querySelector('.segv').innerHTML = newHtmlUp;
-
+  leet.innerHTML = newHtmlUp;
 });
 
 document.querySelector('.SIGN_INBT').addEventListener('click', () =>{
-
-    document.querySelector('.segv').innerHTML = newHtmlIn;
-
+  leet.innerHTML = newHtmlIn;
 });
 
