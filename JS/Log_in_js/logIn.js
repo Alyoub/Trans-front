@@ -132,7 +132,6 @@ document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(button => {
     });
 });
 
-
 const leet = document.querySelector('.segv2');
 leet.innerHTML = newHtmlIn; 
 
