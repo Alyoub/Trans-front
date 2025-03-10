@@ -122,7 +122,6 @@ document.querySelector('.show_ps').addEventListener('click', () => {
     visibility();
 });
 
-
 document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(button => {
     button.addEventListener('click', () => {
         document.querySelectorAll('.SIGN_INBT, .SIGN_UPBT').forEach(btn => {

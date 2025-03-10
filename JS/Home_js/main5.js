@@ -36,4 +36,4 @@ main5.forEach((main5)=>{
 
 document.querySelector('.js-wq1').innerHTML = htmlGen1;
 
-console.log(htmlGen1);
+// console.log(htmlGen1);
